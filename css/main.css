@@ -1,0 +1,37 @@
+body{
+    width: 1000px;
+    margin: 0 100px;
+    background: white;
+}
+header{
+    width: 1000px;
+    padding: 150px 0px;
+}
+a{
+    color: #FAA202;
+    font-weight: bold;
+}
+li{
+    list-style: none;
+    float: left;
+}
+.menu{
+    padding: 0px 10px;
+}
+main{
+    margin-top: 50px;
+}
+#header{
+    background-image: url(../image/logo.jpg);
+}
+footer{
+    background-color: orangered;
+}
+p {
+    text-align: center;
+    color: white;
+}
+p2 {
+    text-align: left;
+    color: rgb(105, 188, 236);
+}
