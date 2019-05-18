@@ -1,14 +1,67 @@
 body{
     width: auto;
     margin: 0 100px;
-    background: white;
+    background: whitesmoke;
+    color: #FFF;
+    font: 20px sans-serif;
 }
 header{
-    width: auto;
-    padding: 120px 0px;
-    font-family: 'Sriracha', cursive;
-    font-size: 50cm;
-    
+    font-family: 'Charmonman', cursive;
+    font-size: 1.5cm;
+
+}
+a {
+    font-family: 'Varela Round', sans-serif;
+}
+li{
+    list-style: none;
+    float: left;
+}
+nav {
+    display: inline;
+    margin: 5px;
+}
+.menu{
+    padding: 0px 10px;
+}
+main{
+    margin: 50px 10px 10px 10px;
+    display: inline;
+}
+footer{
+    background-color: rgba(128, 128, 128, 0.76);
+}
+#logo {
+    text-align: center;
+    color: orangered;
+}
+#footer {
+    text-align: center;
+    color: orangered;
+    font-family: 'Itim', cursive;
+}
+.menu {
+    text-decoration: none;
+    color: #333;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 20px;
+    transition: all 0.3s ease;
+}
+.menu:hover{
+    border-bottom: 3px solid #333;
+    padding-bottom: 0;
+}
+#main {
+    background-image: url(../image/2.jpg);
+    background-size: cover;
+}
+header{
+    padding: 10px 0px;
+    font-size: 1.5em;
+}
+h2{
+    font-size: 20px;
+    margin-top: 0;
 }
 a{
     color: #FAA202;
@@ -18,19 +71,31 @@ li{
     list-style: none;
     float: left;
 }
-nav {
-    display: inline;
-}
 .menu{
     padding: 0px 10px;
 }
 main{
     margin-top: 50px;
 }
-footer{
-    background-color: grey;
+table{
+    font-size: 1rem;
+    margin-bottom: 10px;
+    border-spacing: 0;
 }
-p {
-    text-align: center;
-    color: orangered;
+caption{
+    margin-bottom: 10px;
+    font-size: 0.9em;
+    font-weight: bold;
+    text-align: left;
 }
+th, td{
+    text-align: lrft;
+}
+section{
+    margin: 20px 0px;
+    padding: 30px 20px 30px 20px;
+    border: 2px solid #FFF;
+    border-radius: 1em;
+    box-shadow: white 0.2em 0.3em 0.8em
+}
+
