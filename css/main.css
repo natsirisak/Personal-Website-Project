@@ -1,11 +1,14 @@
 body{
-    width: 1000px;
+    width: auto;
     margin: 0 100px;
     background: white;
 }
 header{
-    width: 1000px;
-    padding: 150px 0px;
+    width: auto;
+    padding: 120px 0px;
+    font-family: 'Sriracha', cursive;
+    font-size: 50cm;
+    
 }
 a{
     color: #FAA202;
@@ -15,23 +18,19 @@ li{
     list-style: none;
     float: left;
 }
+nav {
+    display: inline;
+}
 .menu{
     padding: 0px 10px;
 }
 main{
     margin-top: 50px;
 }
-#header{
-    background-image: url(../image/logo.jpg);
-}
 footer{
-    background-color: orangered;
+    background-color: grey;
 }
 p {
     text-align: center;
-    color: white;
-}
-p2 {
-    text-align: left;
-    color: rgb(105, 188, 236);
+    color: orangered;
 }
