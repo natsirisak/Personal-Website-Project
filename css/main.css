@@ -2,7 +2,7 @@ body{
     width: auto;
     margin: 0 100px;
     background: whitesmoke;
-    color: #FFF;
+    color: black;
     font: 20px sans-serif;
 }
 header{
@@ -12,21 +12,22 @@ header{
 }
 a {
     font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
 }
 li{
     list-style: none;
     float: left;
 }
 nav {
-    display: inline;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
     margin: 5px;
-}
-.menu{
-    padding: 0px 10px;
+    line-height: 30px;
 }
 main{
     margin: 50px 10px 10px 10px;
-    display: inline;
+    display: grid;
+    grid-template-columns: repeat(3,1fr),repeat(3,1fr);
 }
 footer{
     background-color: rgba(128, 128, 128, 0.76);
@@ -34,6 +35,8 @@ footer{
 #logo {
     text-align: center;
     color: orangered;
+    font-size: 1.5cm;
+    font-weight: bold;
 }
 #footer {
     text-align: center;
@@ -41,6 +44,7 @@ footer{
     font-family: 'Itim', cursive;
 }
 .menu {
+    padding: 0px 10px;
     text-decoration: none;
     color: #333;
     border-bottom: 2px solid transparent;
@@ -51,51 +55,35 @@ footer{
     border-bottom: 3px solid #333;
     padding-bottom: 0;
 }
+section{
+    display: grid;
+    width: 200px;
+    margin: 20px 0px;
+    padding: 10px;
+    border: 2px soli black;
+    border-radius: 1em;
+    background: rgba(51, 51, 51, 0.562);
+    box-shadow: rgba(32, 106, 218, 0.76) 0.2em 0.3em 0.8em
+}
+h2 {
+    text-align: center;
+}
+#btn4 { 
+    grid-column: 7;
+}
+h{
+    text-align: center;
+}
 #main {
     background-image: url(../image/2.jpg);
     background-size: cover;
 }
-header{
-    padding: 10px 0px;
-    font-size: 1.5em;
+#Open {
+    grid-row-start: 3;
 }
-h2{
-    font-size: 20px;
-    margin-top: 0;
+#Addess {
+    grid-row-start: 2;
 }
-a{
-    color: #FAA202;
-    font-weight: bold;
+#Hotline {
+    grid-row-start: 3;
 }
-li{
-    list-style: none;
-    float: left;
-}
-.menu{
-    padding: 0px 10px;
-}
-main{
-    margin-top: 50px;
-}
-table{
-    font-size: 1rem;
-    margin-bottom: 10px;
-    border-spacing: 0;
-}
-caption{
-    margin-bottom: 10px;
-    font-size: 0.9em;
-    font-weight: bold;
-    text-align: left;
-}
-th, td{
-    text-align: lrft;
-}
-section{
-    margin: 20px 0px;
-    padding: 30px 20px 30px 20px;
-    border: 2px solid #FFF;
-    border-radius: 1em;
-    box-shadow: white 0.2em 0.3em 0.8em
-}
-
