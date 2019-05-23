@@ -13,6 +13,7 @@ header{
 a {
     font-family: 'Varela Round', sans-serif;
     font-weight: bold;
+    background: rgb(243, 199, 5);
 }
 li{
     list-style: none;
@@ -23,6 +24,7 @@ nav {
     grid-template-columns: repeat(7,1fr);
     margin: 5px;
     line-height: 30px;
+
 }
 main{
     margin: 50px 10px 10px 10px;
