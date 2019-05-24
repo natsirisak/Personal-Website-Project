@@ -1,91 +1,106 @@
 body{
     width: auto;
-    margin: 0 100px;
+    margin: 0px 50px;
     background: whitesmoke;
-    color: black;
-    font: 20px sans-serif;
 }
 header{
     font-family: 'Charmonman', cursive;
-    font-size: 1.5cm;
 
 }
 a {
     font-family: 'Varela Round', sans-serif;
     font-weight: bold;
+    font-size: 0.5cm;
     background: rgb(243, 199, 5);
 }
 li{
     list-style: none;
-    float: left;
 }
 nav {
     display: grid;
     grid-template-columns: repeat(7,1fr);
-    margin: 5px;
-    line-height: 30px;
+    margin: 30px;
 
 }
-main{
-    margin: 50px 10px 10px 10px;
+article {
     display: grid;
-    grid-template-columns: repeat(3,1fr),repeat(3,1fr);
+    padding: 300px 0px 100px 0px;
+    grid-template-columns: repeat(5,1fr);
+}
+main{
+    margin: 20px 0px;
 }
 footer{
     background-color: rgba(128, 128, 128, 0.76);
+    text-align: center;
+    color: orangered;
+    font-family: 'Itim', cursive;
 }
 #logo {
     text-align: center;
     color: orangered;
-    font-size: 1.5cm;
+    font-size: 2cm;
     font-weight: bold;
-}
-#footer {
-    text-align: center;
-    color: orangered;
-    font-family: 'Itim', cursive;
 }
 .menu {
     padding: 0px 10px;
     text-decoration: none;
     color: #333;
-    border-bottom: 2px solid transparent;
-    padding-bottom: 20px;
+    border-bottom: 4px solid transparent;
+    padding-bottom: 15px;
     transition: all 0.3s ease;
 }
 .menu:hover{
     border-bottom: 3px solid #333;
     padding-bottom: 0;
 }
-section{
+section {
     display: grid;
+    text-align: center;
     width: 200px;
-    margin: 20px 0px;
+    margin: 20px 10px;
     padding: 10px;
     border: 2px soli black;
     border-radius: 1em;
-    background: rgba(51, 51, 51, 0.562);
-    box-shadow: rgba(32, 106, 218, 0.76) 0.2em 0.3em 0.8em
+    background: rgba(51, 51, 51, 0.726);
+    box-shadow: rgba(3, 6, 10, 0.76) 0.5em 0.3em 0.8em;
 }
 h2 {
     text-align: center;
+    color: rgb(250, 74, 74);
+    font-family: 'Varela Round', sans-serif;
+}
+h {
+    color: pink;
+    font-family: 'Varela Round', sans-serif;
 }
 #btn4 { 
     grid-column: 7;
 }
-h{
-    text-align: center;
+#btn1 {
+    grid-column: 1;
 }
 #main {
     background-image: url(../image/2.jpg);
     background-size: cover;
 }
 #Open {
-    grid-row-start: 3;
+    grid-column: 2;
 }
-#Addess {
-    grid-row-start: 2;
+.gotopbtn{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: #52a541;
+    bottom: 40px;
+    right: 50px;
+  
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 22px;
 }
-#Hotline {
-    grid-row-start: 3;
+html{
+    scroll-behavior: smooth;
 }
