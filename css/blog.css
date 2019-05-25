@@ -1,7 +1,7 @@
 body{
     width: auto;
     margin: 0px 50px;
-    background: whitesmoke;
+    background: #333;
 }
 header{
     font-family: 'Charmonman', cursive;
@@ -17,14 +17,34 @@ li{
 nav {
     display: grid;
     grid-template-columns: repeat(7,1fr);
-    margin: 30px;
+    text-align: center;
 
+}
+article {
+    display: flex;
+    flex-wrap: wrap;  
+}
+section {
+    font-size: 0.6cm;
+    background-color: burlywood;
+    height: 700px;
+    padding: 12px;
+    width: 550px;
+    font-family: 'Charmonman', cursive;
+}
+aside {
+    font-size: 1em;
+    padding: 10px;
+    background-color: cadetblue;
+    width: 700px;
+    margin-left: auto;
 }
 main{
     margin: 20px 0px;
+    display: flex;
 }
 footer{
-    background-color: rgba(128, 128, 128, 0.76);
+    background-color: whitesmoke;
     text-align: center;
     color: orangered;
     font-family: 'Itim', cursive;
