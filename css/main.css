@@ -10,8 +10,7 @@ header{
 a {
     font-family: 'Varela Round', sans-serif;
     font-weight: bold;
-    font-size: 0.5cm;
-    background: rgb(243, 199, 5);
+    font-size: 0.5cm;    
 }
 li{
     list-style: none;
@@ -49,6 +48,7 @@ footer{
     border-bottom: 4px solid transparent;
     padding-bottom: 15px;
     transition: all 0.3s ease;
+    background: rgb(243, 199, 5);
 }
 .menu:hover{
     border-bottom: 3px solid #333;
