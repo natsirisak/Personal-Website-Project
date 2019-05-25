@@ -18,7 +18,16 @@ nav {
     display: grid;
     grid-template-columns: repeat(7,1fr);
     margin: 30px;
-
+}
+article {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-auto-rows: 590px;
+    width: auto;
+}
+section {
+    background-color: #333;
+    width: auto;
 }
 main{
     margin: 20px 0px;
@@ -70,4 +79,11 @@ footer{
 }
 html{
     scroll-behavior: smooth;
+}
+#name {
+    text-align: center;
+    font-size: 1cm;
+    color: bisque;
+    padding: 150px 10px;
+    font-family: 'Itim', cursive;
 }
