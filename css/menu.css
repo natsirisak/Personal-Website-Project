@@ -17,14 +17,21 @@ li{
 nav {
     display: grid;
     grid-template-columns: repeat(7,1fr);
-    margin: 30px;
+    text-align: center;
 
 }
 main{
     margin: 20px 0px;
 }
-p {
-    font-family: 'Itim', cursive;
+article {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-auto-rows: 590px;
+    width: auto;
+}
+section {
+    background-color: #333;
+    width: auto;
 }
 footer{
     background-color: rgba(128, 128, 128, 0.76);
@@ -73,4 +80,35 @@ footer{
 }
 html{
     scroll-behavior: smooth;
+}
+#mi {
+    text-align: center;
+    font-size: 1cm;
+    color: bisque;
+    background: #333;
+    padding: 220px 0px;
+    font-family: 'Itim', cursive;
+}
+#jen {
+    text-align: center;
+    font-size: 1cm;
+    color: bisque;
+    background: #333;
+    padding: 220px 0px;
+    font-family: 'Itim', cursive;
+}
+#mimi {
+    background-image: url(../image/33.jpg);
+    background-size: cover;
+}
+#jenjen {
+    background-image: url(../image/1.jpg);
+    background-size: cover;
+}
+@media screen and (max-width:800px) {
+    .grid-container{
+        grid-template-columns: auto;
+      
+    }
+  
 }
